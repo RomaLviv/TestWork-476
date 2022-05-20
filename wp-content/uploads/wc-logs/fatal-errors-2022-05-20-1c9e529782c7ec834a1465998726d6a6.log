@@ -189,3 +189,11 @@ Stack trace:
 #8 {main}
   thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
 
+2022-05-20T20:57:08+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:54
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 54
+

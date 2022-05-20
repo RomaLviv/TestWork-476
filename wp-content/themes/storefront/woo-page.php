@@ -66,7 +66,7 @@ get_header(); ?>
 
 		</main>
 	</div>
-    <?php get_template_part('create-product');?>
+    <!-- <?php get_template_part('create-product');?> -->
 <?php
 
 
