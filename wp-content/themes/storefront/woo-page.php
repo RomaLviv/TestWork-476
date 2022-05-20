@@ -2,17 +2,13 @@
 /*
 Template Name: Woo page
 */
-
 get_header(); ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<?php
 			while ( have_posts() ) :
 				the_post();
-
 				do_action( 'storefront_page_before' );
-
 				get_template_part( 'content', 'page' );
 				?>
 			<?php
@@ -37,7 +33,7 @@ get_header(); ?>
 						  <p>Product Type: <?= get_post_meta( $post->ID, '_product_type', true); ?></p>
 						  <?php if($product->has_child()) : ?>
 <a href="<?php the_permalink(); ?>">
-<?php _e('Zobacz dostępne warianty', 'my-theme'); ?>
+<?php _e('See the available warranty', 'storefront'); ?>
 </a>
 <?php elseif($product->is_in_stock()) : ?>
 <form class="cart" action="<?php the_permalink() ?>" method="post" enctype="multipart/form-data">
@@ -58,16 +54,12 @@ get_header(); ?>
 						</ul>
 						</div>
 						</div>
-
 				<?php
 				do_action( 'storefront_page_after' );
 			endwhile; 
 			?>
-
 		</main>
 	</div>
-    <!-- <?php get_template_part('create-product');?> -->
 <?php
-
 
 get_footer();

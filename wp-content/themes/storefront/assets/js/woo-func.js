@@ -10,3 +10,4 @@ jQuery('#clear_button').click(function(e) {
             alert("Changes not saved");
         }
 });
+

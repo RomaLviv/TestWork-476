@@ -197,3 +197,21 @@ Stack trace:
 #3 {main}
   thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 54
 
+2022-05-20T22:00:59+00:00 CRITICAL syntax error, unexpected token "=" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 71
+
+2022-05-20T22:03:21+00:00 CRITICAL Uncaught Error: Call to undefined function ader() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:71
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 71
+
+2022-05-20T22:03:36+00:00 CRITICAL Uncaught Error: Call to undefined function ader() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:71
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 71
+

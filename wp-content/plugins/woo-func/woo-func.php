@@ -10,20 +10,6 @@ function add_scripts_and_styles() {
 }
 add_action( 'admin_enqueue_scripts', 'add_scripts_and_styles' );
 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 function art_added_tabs( array $tabs ): array {
 	$tabs['special_panel'] = [
 		'label'    => 'Custom Fields',
@@ -75,7 +61,6 @@ function art_woo_add_custom_fields() {
 			],
 		]
 	);
-	
 	?>
 	<div class="options_group">
 	<p class="form-field custom_field_type">
@@ -83,7 +68,6 @@ function art_woo_add_custom_fields() {
 				<?php echo 'Save Product:' ?>
 			</label>
 	<input type="button" class="metabox_submit button-primary button-large" value="Save" />
-	
 </p>
 </div>
 <div class="options_group">
@@ -91,28 +75,21 @@ function art_woo_add_custom_fields() {
 	<p class="reply-submit-buttons">
 			<button id="clear_button" type="button" class="cancel button">Clear Custom fields</button>
 	</p>
-	
 </p>
 </div>
-
 </div>
 <?php
 	echo '</div>'; 
-
 }
 add_action( 'woocommerce_product_data_panels', 'art_woo_add_custom_fields' );
 
-
 function custom_fields_save( $post_id ) {
-
 	$woocommerce_select = $_POST['_product_type'];
 	if ( ! empty( $woocommerce_select ) ) {
 		update_post_meta( $post_id, '_product_type', esc_attr( $woocommerce_select ) );
 	}
 }
 add_action( 'woocommerce_process_product_meta', 'custom_fields_save', 10 );
-
-
 
 add_filter( 'manage_edit-product_columns', 'custom_product_column',11);
 function custom_product_column($columns)
@@ -133,8 +110,4 @@ function custom_product_list_column_content( $column, $product_id )
             break;
     }
 }
-
-
-
-// Form
 
