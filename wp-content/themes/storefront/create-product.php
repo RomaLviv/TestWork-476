@@ -21,7 +21,7 @@ get_header(); ?>
         <p>Product image: 
         <input id="upload_image_button" type="button" class="button" value="<?php _e( 'Select' ); ?>" /></p>
         <input type='hidden' name='image_attachment_id' id='image_attachment_id' value='<?php echo get_option( 'media_selector_attachment_id' ); ?>'>
-        <input type="submit" value="Create Product" name="submit"> <!-- assign a name for the button -->
+        <input type="submit" value="Create Product" name="submit">
         </form>
     <?php
 
