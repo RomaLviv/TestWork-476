@@ -1,0 +1,668 @@
+2022-05-19T11:49:40+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:42
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 42
+
+2022-05-19T11:50:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:23
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(42): get_date_created(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 23
+
+2022-05-19T11:51:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_prop() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:42
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 42
+
+2022-05-19T11:51:53+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:23
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(42): get_date_created()
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 23
+
+2022-05-19T11:52:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:42
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 42
+
+2022-05-19T11:52:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:42
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 42
+
+2022-05-19T11:52:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:23
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(42): get_date_created()
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 23
+
+2022-05-19T11:53:02+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:23
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(42): get_date_created(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 23
+
+2022-05-19T11:56:00+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:9
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(36): get_date_created(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 9
+
+2022-05-19T11:57:13+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:9
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(36): get_date_created(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 9
+
+2022-05-19T12:06:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:08:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:12:24+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:15:33+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:16:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:17:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:30:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:9
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(36): get_date_created(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 9
+
+2022-05-19T12:31:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:9
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(39): get_date_created(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 9
+
+2022-05-19T12:31:42+00:00 CRITICAL Uncaught Error: Using $this when not in object context in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:9
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(39): get_date_created(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#11 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 9
+
+2022-05-19T12:44:29+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:47:31+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:13
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 13
+
+2022-05-19T12:49:36+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:34
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 34
+
+2022-05-19T12:57:12+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T12:57:54+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T12:58:36+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:37
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 37
+
+2022-05-19T12:58:43+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:37
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 37
+
+2022-05-19T13:03:42+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:44
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 44
+
+2022-05-19T13:04:49+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:36
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 36
+
+2022-05-19T13:05:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "get_product_data" not found or invalid function name in G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#7 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#8 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#9 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php доступно 307
+
+2022-05-19T13:08:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 35
+
+2022-05-19T13:23:40+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:36
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 36
+
+2022-05-19T13:29:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:36
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 36
+
+2022-05-19T13:29:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_date_created() in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:36
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 36
+
+2022-05-19T13:30:38+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:36
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields(NULL)
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 36
+
+2022-05-19T13:31:55+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:36
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 36
+
+2022-05-19T13:32:19+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:31
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 31
+
+2022-05-19T13:32:50+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T13:33:37+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:43
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 43
+
+2022-05-19T13:33:52+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T13:35:57+00:00 CRITICAL Uncaught Error: Call to a member function get_date() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T13:36:06+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T13:45:36+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T13:45:50+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+
+2022-05-19T13:48:42+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:40
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#10 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 40
+

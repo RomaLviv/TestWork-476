@@ -1,0 +1,83 @@
+2022-05-20T10:38:27+00:00 CRITICAL syntax error, unexpected token "<" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 25
+
+2022-05-20T10:41:18+00:00 CRITICAL syntax error, unexpected token "<" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 29
+
+2022-05-20T10:52:11+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_product_type_html() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php:45
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 45
+
+2022-05-20T10:52:29+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php:45
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 45
+
+2022-05-20T10:58:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php:45
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 45
+
+2022-05-20T10:59:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php:45
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 45
+
+2022-05-20T11:02:43+00:00 CRITICAL syntax error, unexpected token ",", expecting ")" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 45
+
+2022-05-20T11:07:04+00:00 CRITICAL syntax error, unexpected token "<" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\page.php доступно 26
+
+2022-05-20T12:20:13+00:00 CRITICAL syntax error, unexpected token "endwhile", expecting end of file у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php доступно 57
+
+2022-05-20T16:00:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "remove_save_button" not found or invalid function name in G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 G:\XAMPP\htdocs\woo\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#3 G:\XAMPP\htdocs\woo\wp-admin\post.php(369): require_once('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php доступно 307
+
+2022-05-20T16:00:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "remove_save_button" not found or invalid function name in G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 G:\XAMPP\htdocs\woo\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#3 G:\XAMPP\htdocs\woo\wp-admin\post.php(369): require_once('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php доступно 307
+
+2022-05-20T16:00:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "remove_save_button" not found or invalid function name in G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 G:\XAMPP\htdocs\woo\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#3 G:\XAMPP\htdocs\woo\wp-admin\post.php(369): require_once('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php доступно 307
+
+2022-05-20T18:18:37+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php доступно 72
+
+2022-05-20T18:18:48+00:00 CRITICAL Uncaught Error: Call to undefined function catlist() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:13
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(70): get_template_part('create-product')
+#4 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#7 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 13
+
