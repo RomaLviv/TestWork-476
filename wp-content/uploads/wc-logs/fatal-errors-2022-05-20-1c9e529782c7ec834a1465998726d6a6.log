@@ -98,3 +98,94 @@ Stack trace:
 
 2022-05-20T20:00:30+00:00 CRITICAL 'break' not in the 'loop' or 'switch' context у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 34
 
+2022-05-20T20:34:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::set_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(43): display()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(69): get_template_part('create-product')
+#5 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
+
+2022-05-20T20:34:39+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::set_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(43): display()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(69): get_template_part('create-product')
+#5 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
+
+2022-05-20T20:34:47+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::set_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(43): display()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(69): get_template_part('create-product')
+#5 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
+
+2022-05-20T20:38:40+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(43): display()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(69): get_template_part('create-product')
+#5 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
+
+2022-05-20T20:38:47+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(43): display()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(69): get_template_part('create-product')
+#5 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
+
+2022-05-20T20:38:50+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(43): display()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(69): get_template_part('create-product')
+#5 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
+
+2022-05-20T20:38:52+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::_product_type() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:35
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(43): display()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template.php(772): require('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-includes\template.php(716): load_template('G:\\XAMPP\\htdocs...', false, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\woo-page.php(69): get_template_part('create-product')
+#5 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 35
+
