@@ -9,7 +9,9 @@ function add_scripts_and_styles() {
 	wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/woo-func.js', array(), null, 'footer');
 }
 add_action( 'admin_enqueue_scripts', 'add_scripts_and_styles' );
+add_action( 'wp_enqueue_scripts', 'add_scripts_and_styles' );
 
+// Create new tap for custom fields
 function art_added_tabs( array $tabs ): array {
 	$tabs['special_panel'] = [
 		'label'    => 'Custom Fields',
@@ -20,6 +22,7 @@ function art_added_tabs( array $tabs ): array {
 }
 add_filter( 'woocommerce_product_data_tabs', 'art_added_tabs', 10, 1 );
 
+// Add icon for tab
 function art_added_tabs_icon() {
 	?>
 	<style>
@@ -34,10 +37,12 @@ function art_added_tabs_icon() {
 }
 add_action( 'admin_footer', 'art_added_tabs_icon' );
 
+// Create Custom Fileds
 function art_woo_add_custom_fields() {
 	global $product, $post;
 	echo '<div id="special_panel_product_data" class="panel woocommerce_options_panel">';
 	?>
+	<!-- Field date created -->
 	<div class="options_group">
         <p class="form-field custom_field_type">
 			<label for="custom_field_type">
@@ -49,6 +54,7 @@ function art_woo_add_custom_fields() {
 		</div>
 		<div class="options_group">
 		<?php
+		// Field type select
 	woocommerce_wp_select(
 		[
 			'id'      => '_product_type',
@@ -62,27 +68,60 @@ function art_woo_add_custom_fields() {
 		]
 	);
 	?>
+
+
+
+<!-- Select product image -->
 	<div class="options_group">
-	<p class="form-field custom_field_type">
-	<label for="custom_field_type">
-				<?php echo 'Save Product:' ?>
-			</label>
-	<input type="button" class="metabox_submit button-primary button-large" value="Save" />
-</p>
-</div>
-<div class="options_group">
-	<p class="form-field custom_field_type">
-	<p class="reply-submit-buttons">
-			<button id="clear_button" type="button" class="cancel button">Clear Custom fields</button>
+		<p class="form-field custom_field_type">
+			<form method="post" enctype="multipart/form-data">
+				<label>Select Image:</label>
+					<input type="file" name ="file-upload" id="image_prew" required />
+						<div id="preview_prod_img"></div>
+							<p class="form-field custom_field_type">
+								<label for="custom_field_type">
+									<?php echo 'Save Product:' ?>
+								</label>
+									<input type="submit" name="submit" class="metabox_submit button-primary button-large" value="Save" >
+							</p>
+			</form>
+<?php
+
+// Upload on submit - Not Working yet
+if(isset($_POST['submit'])){ 
+    upload_image(); 
+	update_post_meta( $post_id, '_thumbnail_id', $attachment_id );
+}
+function upload_image(){
+    $uploadTo = "uploads/"; 
+    $allowedImageType = array('jpg','png','jpeg','gif','pdf','doc');
+    $imageName = $_FILES['file']['name'];
+    $tempPath=$_FILES["file"]["tmp_name"];
+    $basename = basename($imageName);
+    $originalPath = $uploadTo.$basename; 
+    $imageType = pathinfo($originalPath, PATHINFO_EXTENSION); 
+	$overrides = array( 'form' => false);
+	$attachment_id = media_handle_upload('file-upload', $overrides);
+}
+?>
+<!-- Fields Clear Button -->
 	</p>
-</p>
-</div>
+		</div>
+				<div class="options_group">
+					<p class="form-field custom_field_type">
+						<p class="reply-submit-buttons">
+							<button id="clear_button" type="button" class="cancel button">Clear Custom fields</button>
+						</p>
+					</p>
+		</div>
+
 </div>
 <?php
 	echo '</div>'; 
 }
 add_action( 'woocommerce_product_data_panels', 'art_woo_add_custom_fields' );
 
+// Saving custom fields
 function custom_fields_save( $post_id ) {
 	$woocommerce_select = $_POST['_product_type'];
 	if ( ! empty( $woocommerce_select ) ) {
@@ -91,13 +130,14 @@ function custom_fields_save( $post_id ) {
 }
 add_action( 'woocommerce_process_product_meta', 'custom_fields_save', 10 );
 
+// Add new tab to product list
 add_filter( 'manage_edit-product_columns', 'custom_product_column',11);
 function custom_product_column($columns)
 {
    $columns['options'] = __( 'Product type','woocommerce');
    return $columns;
 }
-
+// Add content to new product list tab
 add_action( 'manage_product_posts_custom_column' , 'custom_product_list_column_content', 10, 2 );
 function custom_product_list_column_content( $column, $product_id )
 {
@@ -110,4 +150,11 @@ function custom_product_list_column_content( $column, $product_id )
             break;
     }
 }
+
+
+
+
+
+
+
 

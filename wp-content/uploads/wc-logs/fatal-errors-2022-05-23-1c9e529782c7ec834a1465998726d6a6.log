@@ -1,0 +1,221 @@
+2022-05-23T09:14:16+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:86
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(53): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 86
+
+2022-05-23T09:15:30+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:88
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): art_woo_add_custom_fields('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(53): do_action('woocommerce_pro...')
+#4 G:\XAMPP\htdocs\woo\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('G:\\XAMPP\\htdocs...')
+#5 G:\XAMPP\htdocs\woo\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 G:\XAMPP\htdocs\woo\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 G:\XAMPP\htdocs\woo\wp-admin\post.php(206): require('G:\\XAMPP\\htdocs...')
+#8 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 88
+
+2022-05-23T10:22:06+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:11
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(11): file_get_contents('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): fn_set_featured_image('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-settings.php(587): do_action('init')
+#5 G:\XAMPP\htdocs\woo\wp-config.php(96): require_once('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-load.php(50): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\admin.php(34): require_once('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\post.php(12): require_once('G:\\XAMPP\\htdocs...')
+#9 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 11
+
+2022-05-23T10:23:45+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:11
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(11): file_get_contents('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): fn_set_featured_image('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-settings.php(587): do_action('init')
+#5 G:\XAMPP\htdocs\woo\wp-config.php(96): require_once('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-load.php(50): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\admin.php(34): require_once('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\post.php(12): require_once('G:\\XAMPP\\htdocs...')
+#9 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 11
+
+2022-05-23T10:24:05+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:11
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(11): file_get_contents('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): fn_set_featured_image('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-settings.php(587): do_action('init')
+#5 G:\XAMPP\htdocs\woo\wp-config.php(96): require_once('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-load.php(50): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\admin.php(34): require_once('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\post.php(12): require_once('G:\\XAMPP\\htdocs...')
+#9 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 11
+
+2022-05-23T10:29:35+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:179
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(179): file_get_contents('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): fn_set_featured_image('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-settings.php(587): do_action('init')
+#5 G:\XAMPP\htdocs\woo\wp-config.php(96): require_once('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-load.php(50): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\admin.php(34): require_once('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\post.php(12): require_once('G:\\XAMPP\\htdocs...')
+#9 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 179
+
+2022-05-23T10:32:01+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php:179
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php(179): file_get_contents('')
+#1 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(307): fn_set_featured_image('')
+#2 G:\XAMPP\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 G:\XAMPP\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 G:\XAMPP\htdocs\woo\wp-settings.php(587): do_action('init')
+#5 G:\XAMPP\htdocs\woo\wp-config.php(96): require_once('G:\\XAMPP\\htdocs...')
+#6 G:\XAMPP\htdocs\woo\wp-load.php(50): require_once('G:\\XAMPP\\htdocs...')
+#7 G:\XAMPP\htdocs\woo\wp-admin\admin.php(34): require_once('G:\\XAMPP\\htdocs...')
+#8 G:\XAMPP\htdocs\woo\wp-admin\post.php(12): require_once('G:\\XAMPP\\htdocs...')
+#9 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\plugins\woo-func\woo-func.php доступно 179
+
+2022-05-23T12:45:02+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:52
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(73): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 52
+
+2022-05-23T12:46:55+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:52
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(73): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 52
+
+2022-05-23T12:47:04+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:52
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(73): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 52
+
+2022-05-23T12:47:26+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:52
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(73): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 52
+
+2022-05-23T12:47:45+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:52
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(73): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 52
+
+2022-05-23T12:48:22+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:52
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(73): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 52
+
+2022-05-23T12:49:17+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:52
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(73): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 52
+
+2022-05-23T12:52:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function media_handle_upload(), 1 passed in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php on line 56 and at least 2 expected in G:\XAMPP\htdocs\woo\wp-admin\includes\media.php:292
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(56): media_handle_upload('file-upload')
+#1 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(77): create_product()
+#2 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#4 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#5 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-admin\includes\media.php доступно 292
+
+2022-05-23T12:57:53+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 55
+
+2022-05-23T12:59:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function create_product(), 0 passed in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php on line 76 and exactly 1 expected in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:50
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(76): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 50
+
+2022-05-23T13:19:43+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:53
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php(74): create_product()
+#1 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#3 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 53
+
+2022-05-23T13:44:05+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 91
+
+2022-05-23T13:44:42+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 89
+
+2022-05-23T13:45:15+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 79
+
+2022-05-23T13:45:21+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 79
+
+2022-05-23T13:45:59+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 79
+
+2022-05-23T13:47:46+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 94
+
+2022-05-23T13:48:01+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 94
+
+2022-05-23T13:53:37+00:00 CRITICAL syntax error, unexpected token "}" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 92
+
+2022-05-23T14:04:48+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 91
+
+2022-05-23T14:07:32+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 15
+
+2022-05-23T14:16:23+00:00 CRITICAL Uncaught Error: Call to undefined function url() in G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php:12
+Stack trace:
+#0 G:\XAMPP\htdocs\woo\wp-includes\template-loader.php(106): include()
+#1 G:\XAMPP\htdocs\woo\wp-blog-header.php(19): require_once('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\woo\index.php(17): require('G:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown у G:\XAMPP\htdocs\woo\wp-content\themes\storefront\create-product.php доступно 12
+
+2022-05-23T15:12:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded у G:\XAMPP\htdocs\woo\wp-includes\wp-db.php доступно 2162
+
+2022-05-23T15:15:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded у G:\XAMPP\htdocs\woo\wp-includes\wp-db.php доступно 2162
+
